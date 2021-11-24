@@ -1,8 +1,8 @@
-var UrlGetSocios = 'http://localhost:90/G5_19/controller/Socios.php?op=GetSocios';
-var UrlPostSocios = 'http://localhost:90/G5_19/controller/Socios.php?op=InsertSocios';
-var UrlGetUno = 'http://localhost:90/G5_19/controller/Socios.php?op=GetUno';
-var UrlPutSocios = 'http://localhost:90/G5_19/controller/Socios.php?op=UpdateSocios';
-var UrlDeleteSocios= 'http://localhost:90/G5_19/controller/Socios.php?op=DeleteSocios';
+var UrlGetSocios = 'http://34.68.196.220:90/G5_19/SOCIOS/controller/Socios.php?op=GetSocios';
+var UrlPostSocios = 'http://34.68.196.220:90/G5_19/SOCIOS/controller/Socios.php?op=InsertSocios';
+var UrlGetUno = 'http://34.68.196.220:90/G5_19/SOCIOS/controller/Socios.php?op=GetUno';
+var UrlPutSocios = 'http://34.68.196.220:90/G5_19/SOCIOS/controller/Socios.php?op=UpdateSocios';
+var UrlDeleteSocios= 'http://34.68.196.220:90/G5_19/SOCIOS/controller/Socios.php?op=DeleteSocios';
 
 $(document).ready(function(){
     CargarSocios();
