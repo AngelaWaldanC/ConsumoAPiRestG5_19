@@ -30,8 +30,8 @@ function CargarSocios(){
                 '<td>' + MiItems[i].ESTADO + '</td>'+
                 '<td>' + MiItems[i].TELEFONO + '</td>'+
                 '<td>' +
-                '<button class="btn btn-warning" onclick="CargarSocio('+MiItems[i].ID+')">Editar</button>'+
-                '<button class="btn btn-danger" onclick="EliminarSocios('+MiItems[i].ID+')">Eliminar</button>'+                
+                '<button class="btn btn-info" onclick="CargarSocio('+MiItems[i].ID+')">Editar</button>'+
+                '<button class="btn btn-danger" onclick="EliminarSocios('+MiItems[i].ID+')">Eliminar</button>'+              
                 '</td>' +
                 '</tr>';
                 $('.socios').html(Valores);
